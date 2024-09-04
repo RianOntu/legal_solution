@@ -1,0 +1,48 @@
+/* hero section starts */
+.container-description{
+    background-image: url('./images/banner.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+/* what clients say  */
+.carousel-title{
+    margin-bottom: 30%;
+}
+/* Best judges of world section starts  */
+.judge img{
+    height: 400px;
+    width: 600px;
+}
+/* footer area starts  */
+.subscribe{
+    margin-left: -4px;
+}
+/* faq area  */
+.faq{
+  width: 100%;
+}
+
+/* Media Queries  */
+
+@media only screen and (max-width:576px){
+    .services{
+        width: 100%!important;
+    }
+    .carousel-title,.carousel-description{
+        font-size: 10px;
+    }
+    .carousel{
+        height: 309px;
+    }
+    .carousel-inner img{
+        height:323px ;
+    }
+    .lb{
+        border: none !important;;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .lb{
+        border: none !important;;
+    }
+}
